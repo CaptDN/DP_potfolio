@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive Header</title>
+    <link rel="stylesheet" href="../Css Files/styles.css">
+    <title>Dinesh Portfolio</title>
+</head>
+<body>
+
+  <section class="OuterBody">
+
+    <!-- Header starts from here -->
+
+      <header>
+          <div class="logo"><a href="#"><img src="../Images/Mobitrics logo.png" alt="Mobitrics Logo"></a></div>
+          <nav class="nav-links">
+              <a href="#">Home</a>
+              <a href="#">About Me</a>
+              <a href="#">Services</a>
+              <a href="#">Portfolio</a>
+              <a href="#">Blogs</a>
+              <a href="#">Get in Touch</a>
+          </nav>
+          <div class="hamburger" onclick="toggleSidebar()">&#9776;</div>
+      </header>
+      
+      <div class="sidebar" id="sidebar">
+          <a href="#" class="closebtn" onclick="toggleSidebar()">&times;</a>
+          <a href="#">Home</a>
+          <a href="#">About Me</a>
+          <a href="#">Services</a>
+          <a href="#">Portfolio</a>
+          <a href="#">Blogs</a>
+          <a href="#">Get in Touch</a>
+      </div>
+
+    <!-- Hero section starts from here -->
+
+        <section class="hero">
+            <article>
+                <p class="intro-text">Hello There...</p>
+                <h1 class="main-heading">Dinesh Patil</h1>
+                <h2 class="sub-heading">I am a Product Designer</h2>
+                <p class="description">As a Product Manager, I craft strategies, guide development, and optimize user experiences across various digital products for business success.</p>
+                <div class="cta-buttons">
+                    <button class="btn btn-primary">MY WORK</button>
+                    <button class="btn btn-secondary">HIRE ME</button>
+                </div>
+            </article>
+            <div class="image-container">
+                <img src="../Images/Dinesh patil.png" alt="Hero Image">
+            </div>
+        </section>
+
+  </section>
+
+  <!-- About Me Section -->
+
+  <section class="about-me">
+    <div class="about-me-container">
+        <div class="about-me-image">
+            <img src="path-to-your-image.jpg" alt="Robert Heart">
+        </div>
+        <div class="about-me-content">
+            <h2>I am Dinesh Patil</h2>
+            <h3>Founder and Chief Architect of Mobitrics Technologies Pvt Ltd</h3>
+            <p>I am passionate about crafting mobile and web products that enhance people's lives. With over 17 years of experience, I specialize in strategizing innovative digital experiences for small startups and well-established companies.</p>
+            <div class="about-me-details-box">
+            <ul class="about-me-details">
+                <li><strong>Total Work Experience:</strong> 17 years</li>
+                <li><strong>Work Email:</strong> dinesh@mobitrics.com</li>
+                <li><strong>Contact Number:</strong> +919923562317</li>
+                <li><strong>Address:</strong> Rahatani, Pune 411017</li>
+            </ul>
+            </div>
+              <button class="btn btn-primary">DOWNLOAD CV</button>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- my service -->
+
+<section class="OuterSection">
+  <section class="InnerSection">
+    <div class="title_box">
+      <h2>My Services</h2>
+      <p> Our End-to-End Product Development Services</p>
+    </div>
+    <section class="Services">
+
+      <div class="ServiceCard">
+        <img src="../Images/icon.png" alt="">
+        <h3>UI/UX Design | Clickable Prototypes</h3>
+        <p>Our UI/UX Design services create engaging interfaces and clickable prototypes for early testing, refining user experiences before development</p>
+      </div>
+
+      <div class="ServiceCard">
+        <img src="../Images/icon.png" alt="">
+        <h3>Native iOS & Android Development</h3>
+        <p>Our Native iOS & Android Development services deliver high-performance, user-friendly mobile apps, tailored to platform-specific standards for optimal functionality and user experience</p>
+      </div>
+
+      <div class="ServiceCard">
+        <img src="../Images/icon.png" alt="">
+        <h3>Hybrid Mobile App Development - Flutter | React Native</h3>
+        <p>Our Hybrid Mobile App Development services, using Flutter and React Native, create efficient, cross-platform apps with seamless performance and a consistent user experience</p>
+      </div>
+
+      <div class="ServiceCard">
+        <img src="../Images/icon.png" alt="">
+        <h3>Custom Web App development - ReactJS | Angular</h3>
+        <p>Our Custom Web App Development with ReactJS or Angular offers tailored solutions, leveraging modern frameworks for scalable, high-performance web applications.</p>
+      </div>
+
+      <div class="ServiceCard">
+        <img src="../Images/icon.png" alt="">
+        <h3>Website Development - WordPress and Advance Technologies</h3>
+        <p>Our Website Development with WordPress offers customizable, user-friendly solutions, empowering businesses with dynamic, feature-rich websites tailored to their unique needs.</p>
+      </div>
+
+      <div class="ServiceCard">
+        <img src="../Images/icon.png" alt="">
+        <h3>DevOps Consulting for AWS</h3>
+        <p>Our DevOps Consulting services on AWS optimize infrastructure, automate processes, and enhance scalability, ensuring efficient and reliable cloud-based operations.</p>
+      </div>
+
+    </section>
+
+  </section>
+</section>
+
+
+
+<!-- My portfolio -->
+
+<section class="OuterSection">
+  <section class="InnerSection">
+    <div class="title_box">
+      <h2>My Portfolio</h2>
+      <p> World Class Project Delivered</p>
+    </div>
+    <section class="Projects">
+
+      <div class="ProjectCard" style="background: url('../Images/Project\ 1.jpg') no-repeat center center; background-size: cover;">
+        <div class="overlay">
+        <h3>Learniac</h3>
+        <!-- <p>Learning Product</p> -->
+      </div>
+
+      </div>
+
+      <div class="ProjectCard" style="background: url('../Images/Project\ 2.jpg') no-repeat center center; background-size: cover;">
+        <div class="overlay">
+        <h3>Medconnect</h3>
+        <!-- <p>Health Product</p> -->
+        </div>
+
+      </div>
+
+      <div class="ProjectCard" style="background: url('../Images/Project\ 3.jpg') no-repeat center center; background-size: cover;">
+        <div class="overlay">
+        <h3>Appointo</h3>
+        <!-- <p>Scheduling Product</p> -->
+        </div>
+
+      </div>
+
+      <div class="ProjectCard" style="background: url('../Images/Project\ 4.jpg') no-repeat center center; background-size: cover;">
+        <div class="overlay">
+        <h3>Amanda</h3>
+        <!-- <p>Job portal Product</p> -->
+        </div>  
+      </div>
+
+      <div class="ProjectCard" style="background: url('../Images/Project\ 5.jpg') no-repeat center center; background-size: cover;">
+        <div class="overlay">
+        <h3>Ethersec</h3>
+        <!-- <p>Security Product</p> -->
+        </div>
+
+      </div>
+
+      <div class="ProjectCard" style="background: url('../Images/Project\ 6.jpg') no-repeat center center; background-size: cover;">
+        <div class="overlay">
+        <h3>SiteFuel</h3>
+        <!-- <p>Fuel Industry Product</p> -->
+        </div>
+
+      </div>
+    
+
+    </section>
+
+  </section>
+</section>
+
+
+
+
+
+ <!-- Java script added here -->
+
+    <script src="../Java Files/script.js"></script>
+</body>
+</html>
